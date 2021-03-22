@@ -1,4 +1,7 @@
 /* GLOBAL */
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .wrapper-100{
     width: 100%;
 }
@@ -56,8 +59,16 @@
     margin-top: 20px;
 }
 
+.at-padding-top{
+    padding-top: 30px;
+}
+
+.at-padding-bottom{
+    padding-bottom: 50px;
+}
+
 .at-font-lg{
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
 .at-font-md{
@@ -157,7 +168,7 @@
     color: gray;
 }
 
-#at-jumb .at-jumb-input a{
+#at-jumb .at-jumb-input .a-btn{
     width: 90%;
     height: 30px;
     margin: 5px auto;
@@ -169,17 +180,34 @@
 }
 
 #at-jumb .at-jumb-input a.google{
+    position: relative;
     box-shadow: 1px 2px lightgray ;
     border: 1px solid rgba(211, 211, 211, 0.5) ;
 }
 
+
 #at-jumb .at-jumb-input a.google span{
+    position: absolute;
+    top: 20%;
+    left: 2%;
     width: 100%;
     height: 30px;
+    text-align: left;
 }
 
 #at-jumb .at-jumb-input a.google span img{
-    height: 100%;
+    height: 70%;
+}
+
+#at-jumb .at-jumb-input p{
+    margin-top: 10px;
+    font-size:0.8em;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+#at-jumb .at-jumb-input p a{
+    text-decoration: underline;
 }
 /* ICON */
 #at-icon{
@@ -194,6 +222,8 @@
 #at-icon a{
     text-decoration: none;
 }
+
+
 
 
 /* DEPLOY */
@@ -238,13 +268,21 @@
 
 .coso{
     display: inline-block;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
 }
 
-.coso img{
+/* .coso .fa-chevron-left{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translate(-50% , -50%);
+} */
+
+#designed .coso img{
     width: 100%;
 }
+
 
 .circle{
     display: inline-block;
@@ -336,6 +374,29 @@
     background-color:  rgb(243, 245, 249);
 }
 
+#development .coso-2{
+    padding: 50px 0;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#development .coso-2 img{
+    width: 50%;
+    
+}
+
+#development .coso-2 p :nth-child(2){
+    font-size: 0.9em;
+    
+}
+
+#development .coso-2 p span{
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+
+
 
 /* FOOTER */
 /* TOP */
@@ -402,5 +463,8 @@
     /* DEPLOY */
     #deploy .at-side-bar{
        margin: 0;
+    }
+    #development .coso-2 img{
+        width: 100%;
     }
     }
