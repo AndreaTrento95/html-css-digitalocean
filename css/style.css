@@ -62,7 +62,6 @@ header{
     margin-bottom: 80px;
 }
 .wrapper-nav{
-    
     height: 80px;
     background-color: white;
     position: fixed;
@@ -118,8 +117,9 @@ header{
 .hamburger .glyphicon-menu-hamburger{
     font-size: 2em;
     color: rgb(115, 173, 255);
-    margin-top: 25px;
-    margin-left: 500px;
+    height: 80px;
+    line-height: 80px;
+    vertical-align: middle;
 }
 
 
