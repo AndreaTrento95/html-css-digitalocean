@@ -267,17 +267,33 @@ body{
 }
 
 .coso{
+    position: relative;
     display: inline-block;
     width: 90%;
     margin: 0 auto;
 }
 
-/* .coso .fa-chevron-left{
+.coso .img{
+    width: 100%;
+}
+
+.coso .fa-chevron-left{
     position: absolute;
-    left: 0;
-    bottom: 0;
+    left: -15%;
+    top: 50%;
     transform: translate(-50% , -50%);
-} */
+    font-size: 3em;
+    color: rgba(3, 28, 78, 0.5);
+} 
+
+.coso .fa-chevron-right{
+    position: absolute;
+    right: -18%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 3em;
+    color: rgb(3, 28, 78,);
+}
 
 #designed .coso img{
     width: 100%;
