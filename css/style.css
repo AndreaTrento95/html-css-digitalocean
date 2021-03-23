@@ -541,5 +541,11 @@ header{
     .coso .fa-chevron-right{
         display: none;
     }
+    #at-jumb .at-jumb-text h1{
+        font-size: 3em;
+    }
+    #at-jumb .at-jumb-text p{
+        font-size: 1.2em;
+    }
 }
- 
+
