@@ -463,50 +463,67 @@ header{
 }
 
 /* SHARK */
+#shark{
+    width: 100%;
+    position: fixed;
+    bottom: 5%;
+    z-index: 100;
+}
 #shark .discuss{
-    display: inline-block;
     width: 100%;
     background-color: white;
     border: 1px solid black;
     border-radius: 5px;
-    
 }
-
 #shark .discuss p{
     display: inline-block;
     padding: 5px 5px 0 5px;
     font-size: 0.8em;
 }
 
+.col-md-1{
+    padding-left: 0;
+}
 #shark .img{
-    display: inline-block;
-    width: 50%;
-}
-
-#shark .img img{
-    width: 100%;
+    position: relative;
+    width: 90%;
+    height: 50px;
     background-color: rgb(115, 173, 255);
+    text-align: center;
+    border-radius: 5px;
+}
+#shark .img img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+#shark .circle-shark{
+    position: absolute;
+    top: -30%;
+    right: -10%;
+}
+#shark .circle{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
 }
 
-#shark .circle-shark{
+#shark span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    border: 2px solid white;
-}
-
-#shark .circle-shark .circle-red{
-    width: 15px;
-    height: 15px;
-    padding: 5px;
-    border-radius: 50%;
     background-color: red;
     color: white;
-    font-size: 0.9em;
-}
-
-#shark .circle-shark .circle-red span{
-    margin-bottom:
+    text-align: center;
 }
 
 /* MEDIA QUERY */
